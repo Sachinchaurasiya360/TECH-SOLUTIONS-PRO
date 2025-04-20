@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TECH SOLUTIONS PRO</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Tech Background Elements -->
+    <div class="tech-background">
+      <svg
+        class="circuit-lines"
+        width="100%"
+        height="100%"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+      >
+        <path d="M10,50 L90,50" class="circuit-path" />
+        <path d="M50,10 L50,90" class="circuit-path" />
+        <circle cx="50" cy="50" r="3" class="circuit-node" />
+      </svg>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+      <nav class="nav-container">
+        <div class="logo">TECH SOLUTIONS PRO</div>
+        <div class="menu-toggle" id="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="matrix-bg"></div>
+      <div class="hero-content">
+        <h1>Your One-Stop Tech Solution</h1>
+        <p>Expert tech repairs and solutions for all your digital needs</p>
+        <button class="cta-button">Get a Free Quote</button>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              With over 10 years of experience, TECH SOLUTIONS PRO has been the
+              trusted partner for all your technology needs. We pride ourselves
+              on delivering fast, reliable, and professional service.
+            </p>
+            <div class="stats">
+              <div class="stat-item">
+                <i class="fas fa-clock"></i>
+                <h3>10+ Years</h3>
+                <p>Experience</p>
+              </div>
+              <div class="stat-item">
+                <i class="fas fa-users"></i>
+                <h3>5000+</h3>
+                <p>Happy Clients</p>
+              </div>
+              <div class="stat-item">
+                <i class="fas fa-check-circle"></i>
+                <h3>100%</h3>
+                <p>Satisfaction</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <i class="fas fa-laptop"></i>
+            <h3>Computer & Laptop Repair</h3>
+            <p>
+              Expert repair services for all brands of computers and laptops
+            </p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-microchip"></i>
+            <h3>Software & Hardware Solutions</h3>
+            <p>Comprehensive solutions for all your tech needs</p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-video"></i>
+            <h3>CCTV & Networking</h3>
+            <p>Professional security and network installation services</p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-code"></i>
+            <h3>Website Building</h3>
+            <p>Custom website development and design solutions</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+      <div class="container">
+        <h2>Why Choose Us</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <i class="fas fa-certificate"></i>
+            <h3>Certified Technicians</h3>
+            <p>Our team consists of certified professionals</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-bolt"></i>
+            <h3>Fast Turnaround</h3>
+            <p>Quick and efficient service delivery</p>
+          </div>
+          <div class="feature">
+            <i class="fas fa-dollar-sign"></i>
+            <h3>Affordable Pricing</h3>
+            <p>Competitive rates without compromising quality</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="client-image">JD</div>
+            <p>
+              "Excellent service! Fixed my laptop in no time. Highly
+              recommended!"
+            </p>
+            <h4>John Doe</h4>
+          </div>
+          <div class="testimonial-card">
+            <div class="client-image">SM</div>
+            <p>
+              "Professional team and great customer service. Will definitely
+              return!"
+            </p>
+            <h4>Sarah Miller</h4>
+          </div>
+          <div class="testimonial-card">
+            <div class="client-image">RJ</div>
+            <p>
+              "The best tech repair shop in town. Fair prices and quality work."
+            </p>
+            <h4>Robert Johnson</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="contact-overlay"></div>
+      <div class="container">
+        <h2 class="section-title" data-text="Contact Us">Contact Us</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-header">
+                <h3><i class="fas fa-headset"></i> Get in Touch</h3>
+              </div>
+              <div class="info-grid">
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="info-content">
+                    <h4>Call Us</h4>
+                    <p>+1 (555) 123-4567</p>
+                    <p>24/7 Support Available</p>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="info-content">
+                    <h4>Email Us</h4>
+                    <p>info@techsolutionspro.com</p>
+                    <p>Response within 24 hours</p>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fas fa-location-dot"></i>
+                  </div>
+                  <div class="info-content">
+                    <h4>Visit Us</h4>
+                    <p>123 Tech Street</p>
+                    <p>Digital City, TC 12345</p>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-social">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                  <a href="#" class="social-link"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="#" class="social-link"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="#" class="social-link"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a href="#" class="social-link"
+                    ><i class="fab fa-discord"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-wrapper">
+            <form class="contact-form">
+              <div class="form-header">
+                <h3><i class="fas fa-paper-plane"></i> Send Message</h3>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" id="name" required />
+                  <label for="name">Your Name</label>
+                  <div class="input-icon">
+                    <i class="fas fa-user"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="email" id="email" required />
+                  <label for="email">Your Email</label>
+                  <div class="input-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <select id="service" required>
+                    <option value="" selected disabled>Select Service</option>
+                    <option value="repair">Computer Repair</option>
+                    <option value="software">Software Solutions</option>
+                    <option value="network">Networking</option>
+                    <option value="web">Web Development</option>
+                  </select>
+                  <div class="input-icon">
+                    <i class="fas fa-cog"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <textarea id="message" required></textarea>
+                  <label for="message">Your Message</label>
+                  <div class="input-icon">
+                    <i class="fas fa-message"></i>
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="submit-btn">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Connect With Us</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 TECH SOLUTIONS PRO. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      document
+        .getElementById("mobile-menu")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+          document.querySelector(".nav-links").classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
